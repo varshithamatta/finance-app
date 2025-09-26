@@ -2,11 +2,11 @@ import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
 import { router } from "expo-router";
 
-export default function AddTransaction() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Add Transaction</Text>
-      <Text style={styles.subtitle}>This is a placeholder for adding new transactions.</Text>
+      <Text style={styles.title}>Profile</Text>
+      <Text style={styles.subtitle}>This is a placeholder for user profile settings.</Text>
       <Button title="Go Back" color="#FFFD82" onPress={() => router.back()} />
     </View>
   );
